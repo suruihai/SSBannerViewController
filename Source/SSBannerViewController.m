@@ -81,7 +81,7 @@
 }
 
 - (void)nextPage {
-    if (self.bannerView.isTracking) { // crucial here!保证先drag不会同时执行nextPage
+    if (self.bannerView.isTracking) { // crucial here!
         return;
     }
     
